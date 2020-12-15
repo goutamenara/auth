@@ -19,7 +19,7 @@ let db = new sqlite3.Database(config.sqlite.path, (err) => {
 })
 
 app.use(helmet());
-app.use(require('morgan')('dev'));
+//app.use(require('morgan')('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ type: "application/json" }) );
 app.use(cookieParser());
