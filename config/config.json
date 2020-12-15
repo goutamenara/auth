@@ -1,0 +1,15 @@
+{
+    "sqlite" : {
+        "path" : "./db.sqlite3"
+    },
+    "server":{
+        "port" : "3000"
+    },
+    "jwt":{
+        "secret" : "xsrewt@!432mjeoi119"
+    },
+    "bcrypt":{
+        "salt" : 10
+    }
+    
+}
