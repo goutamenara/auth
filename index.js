@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const config = require('./config')
-const port = 3000
+const port = process.env.PORT || 3000;
 const passport = require('passport')
 
 const sqlite3 = require('sqlite3')
